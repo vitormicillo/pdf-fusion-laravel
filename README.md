@@ -16,7 +16,7 @@ Make the following changes at **`config/app.php`**
 ```php
 'providers' => [
    ...
-   Doode\PDFFusionLaravel\Providers\PDFFusfionServiceProvider::class
+   Doode\PDFFusionLaravel\Providers\PDFFusionServiceProvider::class
 ],
 
 'aliases' => [
