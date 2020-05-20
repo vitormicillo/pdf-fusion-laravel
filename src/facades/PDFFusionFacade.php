@@ -1,14 +1,14 @@
 <?php
 
-namespace Doode\PDFFusionLaravel\Facades;
+namespace Doode\PdfFusionLaravel\Facades;
 
 use \Illuminate\Support\Facades\Facade;
 
 
-class PDFFusionFacade extends Facade {
+class PdfFusionFacade extends Facade {
 
   protected static function getFacadeAccessor() {
-      return 'PDFFusion';
+      return 'PdfFusion';
   }
 
 }

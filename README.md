@@ -12,16 +12,16 @@ PDF Fusion for Laravel. Tested with Laravel 6 and 7.
 ```
 
 ## Configuration
-Make the following changes at **`config/app.php`**
+Make the following changes at **`config/app.php`** if your laravel version does not automatically identify the package
 ```php
 'providers' => [
    ...
-   Doode\PDFFusionLaravel\Providers\PDFFusionServiceProvider::class
+   Doode\PdfFusionLaravel\Providers\PdfFusionServiceProvider::class
 ],
 
 'aliases' => [
    ...
-   'PDFFusion' => Doode\PDFFusionLaravel\Facades\PDFFusionFacade::class
+   'PdfFusion' => Doode\PdfFusionLaravel\Facades\PdfFusionFacade::class
 ]
 ```
 
@@ -36,6 +36,9 @@ Make the following changes at **`config/app.php`**
 ## Usage
 
 You can add PDFs for fusion, by specifying a file path of PDF with `addPathToPDF` method, or adding PDF file as string with `addPDFString` method. The second argument of both methods is array of selected pages (`'all'` for all pages) and the third argument is PDFs orientation (portrait or landscape).
+
+```[P] = Portrait``` <br>
+```[L] = Landscape```
 
 ```php
 $fusion->addPathToPDF('/path/to/pdf', 'all', 'P');
@@ -62,7 +65,7 @@ $fusion->inline();
 
 **Example usage**
 ```php
-$fusion = \PDFFusion::init();
+$fusion = \PdfFusion::init();
 $fusion->addPathToPDF(base_path('/vendor/doode/pdf-fusion-laravel/examples/one.pdf'), [2], 'P');
 $fusion->addPDFString(file_get_contents(base_path('/vendor/doode/pdf-fusion-laravel/examples/two.pdf')), 'all', 'L');
 $fusion->merge();

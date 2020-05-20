@@ -1,12 +1,12 @@
 <?php
 
-namespace Doode\PDFFusionLaravel;
+namespace Doode\PdfFusionLaravel;
 
 use setasign\Fpdi\Fpdi;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Collection;
 
-class PDFFusion {
+class PdfFusion {
     /**
      * Access the filesystem on an oop base
      *
