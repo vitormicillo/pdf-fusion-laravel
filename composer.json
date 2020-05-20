@@ -1,6 +1,6 @@
 {
     "name": "doode/pdf-fusion-laravel",
-    "version": "1.1.0",
+    "version": "v1.0.0",
     "type": "library",
     "description": "Laravel package to merge several PDF files into one.",
     "keywords": [
@@ -17,7 +17,7 @@
     "authors": [
       {
         "name": "Vitor Micillo",
-        "email": "vitormicillo@gmail.com"
+        "email": "doode@doode.com.br"
       }
     ],
     "require": {
