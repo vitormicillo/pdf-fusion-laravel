@@ -27,7 +27,8 @@
       "illuminate/contracts": "^5.8.15|^6.0|^7.0",
       "illuminate/events": "^5.8.15|^6.0|^7.0",
       "illuminate/filesystem": "^5.8.15|^6.0|^7.0",
-      "setasign/fpdi-fpdf": "^2.0"
+      "setasign/fpdi": "^2.0",
+      "setasign/fpdf": "1.8.*"
     },
     "autoload": {
       "psr-4": {

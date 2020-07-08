@@ -19,10 +19,17 @@ You can install the package via composer:
 composer require doode/pdf-fusion-laravel
 ```
 
-## If you have a linux system
+## If you have a linux system (Debian/Ubuntu)
 
 ```bash
 apt-get install ghostscript
+```
+
+
+## If you have a linux system (Arch Linux)
+
+```bash
+pacman -S ghostscript
 ```
 
 ## Configuration
