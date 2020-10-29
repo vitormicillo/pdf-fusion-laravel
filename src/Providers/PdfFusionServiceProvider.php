@@ -3,7 +3,7 @@
 namespace Doode\PdfFusionLaravel\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Doode\PdfFusionLaravel\PdfFusion;
+use Doode\PdfFusionLaravel\PdfFusionLaravel;
 
 class PdfFusionServiceProvider extends ServiceProvider
 {
@@ -24,8 +24,8 @@ class PdfFusionServiceProvider extends ServiceProvider
      */
     public function register()
     {
-      $this->app->singleton('PdfFusion', function ($app) {
-          $PdfFusion = new PdfFusion($app['files']);
+      $this->app->singleton('PdfFusionLaravel', function ($app) {
+          $PdfFusion = new PdfFusionLaravel($app['files']);
           return $PdfFusion;
       });
     }

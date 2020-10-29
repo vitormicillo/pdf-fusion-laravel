@@ -5,7 +5,7 @@ use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 
-class PdfFusion {
+class PdfFusionLaravel {
 	/**
 	 * Access the filesystem on an oop base
 	 *
