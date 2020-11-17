@@ -5,11 +5,10 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/vitormicillo/pdf-fusion-laravel.svg?style=flat-square)](https://scrutinizer-ci.com/g/vitormicillo/pdf-fusion-laravel)
 [![Total Downloads](https://img.shields.io/packagist/dt/doode/pdf-fusion-laravel.svg?style=flat-square)](https://packagist.org/packages/doode/pdf-fusion-laravel)
 
-PDF Fusion for Laravel. Tested with Laravel 6,7 and **`8`**.
+PDF Fusion for Laravel. Tested with Laravel **`7`** and **`8`**.
 
 ## Advantages
 * Also works with PDF versions above **`1.4`**
-* Works with **`PHP7.2 ^ `** for laravel up to **`7`**
 * Works with **`PHP7.3 ^ `** for laravel up to **`8`**
 
 ## Installation
