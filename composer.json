@@ -25,8 +25,8 @@
 
   "require": {
     "php": "^7.3|^8.0",
-    "setasign/fpdi": "^2.3.*",
-    "setasign/fpdf": "^1.8.*"
+    "setasign/fpdi": "^2.3.6",
+    "setasign/fpdf": "^1.8.3"
   },
   "autoload": {
     "psr-4": {
