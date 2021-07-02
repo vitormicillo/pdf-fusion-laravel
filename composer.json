@@ -1,36 +1,33 @@
 {
-  "name": "doode/pdf-fusion-laravel",
-  "description": "Laravel package to merge several PDF files into one.",
-  "keywords": [
-    "laravel",
-    "pdf",
-    "merger",
-    "pdfmerge",
-    "pdf-merge",
-    "fusion",
-    "laravel-pdf-merge"
-  ],
-  "homepage": "https://github.com/vitormicillo/pdf-fusion-laravel",
-  "type": "library",
-  "license": "MIT",
+    "name": "doode/pdf-fusion-laravel",
+    "description": "Laravel package to merge several PDF files into one.",
+    "keywords": [
+        "laravel",
+        "pdf",
+        "merger",
+        "pdfmerge",
+        "pdf-merge",
+        "fusion",
+        "laravel-pdf-merge"
+    ],
+    "homepage": "https://github.com/vitormicillo/pdf-fusion-laravel",
+    "type": "library",
+    "license": "MIT",
 
-  "authors": [
-    {
-      "name": "Vitor Micillo",
-      "email": "doode@doode.com.br",
-      "homepage": "https://doode.com.br",
-      "role": "Developer"
-    }
-  ],
+    "authors": [{
+        "name": "Vitor Micillo",
+        "email": "doode@doode.com.br",
+        "homepage": "https://doode.com.br"
+    }],
 
-  "require": {
-    "php": "^7.3|^8.0",
-    "setasign/fpdi": "^2.3.6",
-    "setasign/fpdf": "^1.8.3"
-  },
-  "autoload": {
-    "psr-4": {
-      "Doode\\PdfFusionLaravel\\": "src"
+    "require": {
+        "php": "^7.3|^7.4|^8.0",
+        "setasign/fpdi": "^2.3.6",
+        "setasign/fpdf": "^1.8.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Doode\\PdfFusionLaravel\\": "src"
+        }
     }
-  }
 }
