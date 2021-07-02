@@ -9,7 +9,7 @@ PDF Fusion for Laravel. Tested with Laravel **`7`** and **`8`**.
 
 ## Advantages
 * Also works with PDF versions above **`1.4`**
-* Works with **`PHP7.3 ^ `** for laravel up to **`8`**
+* Works with **`PHP7.3/ 7.4/ 8.0^`** and laravel **`8`**
 
 ## Installation
 
